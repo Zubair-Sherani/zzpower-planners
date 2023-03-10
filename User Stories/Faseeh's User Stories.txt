@@ -1,0 +1,40 @@
+User Story 1:
+As a warehouse manager, I want to use Odoo to manage inventory levels, so that I can easily track the movement of products in and out of the warehouse and ensure that we always have enough stock on hand to meet customer demand.
+Equivalence classes:
+1.	Valid input: Entering a positive integer value for the inventory level.
+2.	Invalid input: Entering a negative integer value for the inventory level. 
+Boundary values:
+1.	Minimum boundary value: Entering the minimum allowable inventory level, which should be 0.
+2.	Maximum boundary value: Entering the maximum allowable inventory level, which depends on the capacity of the warehouse and the size of the products.
+User Story 2:
+As a marketing manager, I want to use Odoo to create and send email campaigns, so that I can reach out to potential customers and keep current customers informed about new products, promotions, and other updates.
+Equivalence classes:
+1.	Valid email addresses
+2.	Invalid email addresses
+3.	Open rates within the expected range
+4.	Open rates above the expected range
+5.	Open rates below the expected range
+Boundary values:
+1.	Email campaigns with a very small number of recipients
+2.	Email campaigns with a very large number of recipients
+3.	Subject lines that are too short or too long
+4.	Email content that is too short or too long
+5.	Email content that includes special characters or unusual formatting
+
+
+User Story 3:
+As a customer service representative, I want to use Odoo to manage customer support tickets, so that I can quickly respond to customer inquiries, resolve issues, and ensure that our customers are satisfied with their experience.
+Equivalence classes:
+1.	Open support tickets
+2.	Closed support tickets.
+3.	High-priority support tickets
+4.	Low-priority support tickets
+5.	Tickets with detailed information about the issue
+6.	Tickets with limited information about the issue
+Boundary values:
+1.	Tickets with a very short or very long time since creation
+2.	Tickets with a very short or very long time until resolution
+3.	Support requests that are very simple or very complex
+4.	Support requests that require immediate attention
+
+
